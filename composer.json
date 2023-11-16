@@ -31,6 +31,12 @@
     "autoload": {
         "psr-4": { "yii\\swiftmailer\\": "src" }
     },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "cweagans/composer-patches": true
+        }
+    },
     "extra": {
         "branch-alias": {
             "dev-main": "6.0.x-dev"
