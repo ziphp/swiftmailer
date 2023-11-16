@@ -34,6 +34,7 @@
     "config": {
         "sort-packages": true,
         "allow-plugins": {
+            "ziphp/zipper": true,
             "cweagans/composer-patches": true
         }
     },
